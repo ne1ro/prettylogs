@@ -12,6 +12,7 @@ program
 if program.args.length?
   files = program.args
   throw new Error('Should be specified only one file') if files.length isnt 1
+
   fs.readFile files[0], (err, data) ->
     throw err if err?
 
