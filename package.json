@@ -1,10 +1,12 @@
 {
   "author": "Alexey Kuznetsov",
+  "bin": {
+    "prettylogs": "./prettylogs.js"
+  },
   "bugs": {
     "url": "https://github.com/ne1ro/prettylogs/issues"
   },
   "dependencies": {
-    "coffee-script": "~1.8.0",
     "commander": "~2.3.0",
     "prettyjson": "~1.0.0"
   },
@@ -18,5 +20,5 @@
     "type": "git",
     "url": "https://github.com/ne1ro/prettylogs.git"
   },
-  "version": "0.0.1"
+  "version": "0.0.2"
 }
