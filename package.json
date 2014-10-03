@@ -1,22 +1,22 @@
 {
-  "name": "prettylogs",
-  "version": "0.0.1",
+  "author": "Alexey Kuznetsov",
+  "bugs": {
+    "url": "https://github.com/ne1ro/prettylogs/issues"
+  },
+  "dependencies": {
+    "coffee-script": "~1.8.0",
+    "commander": "~2.3.0",
+    "prettyjson": "~1.0.0"
+  },
   "description": "Simple tool for watching JSON logs with prettyjson",
-  "main": "index.js",
+  "homepage": "https://github.com/ne1ro/prettylogs",
+  "keywords": ["logs", "logging", "json", "pretty"],
+  "license": "MIT",
+  "main": "prettylogs.js",
+  "name": "prettylogs",
   "repository": {
     "type": "git",
     "url": "https://github.com/ne1ro/prettylogs.git"
   },
-  "keywords": [
-    "logs",
-    "logging",
-    "json",
-    "pretty"
-  ],
-  "author": "Alexey Kuznetsov",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/ne1ro/prettylogs/issues"
-  },
-  "homepage": "https://github.com/ne1ro/prettylogs"
+  "version": "0.0.1"
 }
