@@ -1,5 +1,8 @@
 {
   "author": "Alexey Kuznetsov",
+  "bin": {
+    "prlogs": "./prettylogs.js"
+  },
   "bugs": {
     "url": "https://github.com/ne1ro/prettylogs/issues"
   },
@@ -8,7 +11,7 @@
     "commander": "~2.6.0",
     "prettyjson": "~1.0.0"
   },
-  "description": "Simple tool for watching JSON logs with prettyjson",
+  "description": "Simple util for watching JSON logs with prettyjson",
   "homepage": "https://github.com/ne1ro/prettylogs",
   "keywords": ["logs", "logging", "json", "pretty"],
   "license": "MIT",
