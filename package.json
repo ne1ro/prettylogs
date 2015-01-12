@@ -5,7 +5,7 @@
   },
   "dependencies": {
     "coffee-script": "~1.8.0",
-    "commander": "~2.3.0",
+    "commander": "~2.6.0",
     "prettyjson": "~1.0.0"
   },
   "description": "Simple tool for watching JSON logs with prettyjson",
